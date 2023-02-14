@@ -15,6 +15,7 @@ namespace Equacao
 
         private void button1_Click( object sender, EventArgs e )
         {
+            panel1.Controls.Clear();
             // Pegando a, b, c dos respectivos TextBox
             var a = Convert.ToDouble(txtA.Text);
             var b = Convert.ToDouble(txtB.Text);
